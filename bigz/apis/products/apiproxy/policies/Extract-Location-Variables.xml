@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract-Location-Variables">
+    <DisplayName>Extract Location Variables</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <URIPath>
+      <Pattern ignoreCase="false">/{flow.product.productuuid}/locate/{flow.product.userid}</Pattern>
+  	</URIPath>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <JSONPayload>
+        <Variable type="string" name="flow.product.query_type">
+            <JSONPath>$.query_type</JSONPath>
+        </Variable>
+        <Variable type="string" name="flow.product.geo_type">
+            <JSONPath>$.geo_type</JSONPath>
+        </Variable>
+        <Variable type="string" name="flow.product.distance">
+            <JSONPath>$.geo_distance.distance</JSONPath>
+        </Variable>
+        <Variable type="string" name="flow.product.address">
+            <JSONPath>$.geo_distance.address</JSONPath>
+        </Variable>
+        <Variable type="string" name="flow.product.latitude">
+            <JSONPath>$.geo_distance.location.latitude</JSONPath>
+        </Variable>
+        <Variable type="string" name="flow.product.longitude">
+            <JSONPath>$.geo_distance.location.longitude</JSONPath>
+        </Variable>
+        <Variable type="string" name="flow.product.limit">
+            <JSONPath>$.limit</JSONPath>
+        </Variable>
+  	</JSONPayload>
+    <Source clearPayload="false">request</Source>
+</ExtractVariables>

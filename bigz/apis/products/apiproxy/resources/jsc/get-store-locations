@@ -1,0 +1,15 @@
+ var rsp = JSON.parse(context.proxyResponse.content);
+var sl = '[';
+
+for (var a=0;a < rsp.entities.length; a++)
+{
+  var et = rsp.entities[a];
+  var lat = parseFloat(et.location.latitude);
+  var long = parseFloat(et.location.longitude);
+  if (a > 0) sl += ',';
+  sl =  sl + '{"store_id": ' + et.id + ',"storeName": "' + et.name + '","adr" : {"addr1": "' + et.adr.addr1 + '","addr2": "' + et.adr.addr2 + '","city": "' + et.adr.city + '","state": "' + et.adr.state + '","zip": "' + et.adr.zip + '","country": "' + et.adr.country + '"},"location": {"latitude": "' + lat + '","longitude": "' + long + '"}}';
+}
+
+sl += ']';
+context.setVariable("flow.product.location.stores",sl);
+//context.proxyResponse.content = sl;

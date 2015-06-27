@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="products">
+    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
+    <CreatedAt>1406235007211</CreatedAt>
+    <CreatedBy>noreply_admin@apigee.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>products</DisplayName>
+    <LastModifiedAt>1406832697647</LastModifiedAt>
+    <LastModifiedBy>noreply_admin@apigee.com</LastModifiedBy>
+    <Policies>
+        <Policy>Extract-Location-Variables</Policy>
+        <Policy>Get-Product-Details</Policy>
+        <Policy>Load-Location-Data</Policy>
+        <Policy>Locater-Stores-With-Product</Policy>
+        <Policy>Quota</Policy>
+        <Policy>Raise-Fault</Policy>
+        <Policy>Response-Cache-1</Policy>
+        <Policy>Set-Service-Call</Policy>
+        <Policy>SetTargetURL</Policy>
+        <Policy>Spike-Arrest</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>js://reDirectBaseURL.js</Resource>
+        <Resource>jsc://get-product-details</Resource>
+        <Resource>jsc://get-store-locations</Resource>
+        <Resource>jsc://load-location-data</Resource>
+        <Resource>jsc://locate-stores-with-product</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+        <TargetEndpoint>target-locate</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>

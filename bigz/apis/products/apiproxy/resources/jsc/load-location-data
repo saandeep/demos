@@ -1,0 +1,71 @@
+var geo_type = context.getVariable("flow.product.geo_type");
+var lat = context.getVariable("flow.product.latitude");
+var long = context.getVariable("flow.product.longitude");
+var addr = context.getVariable("flow.product.address");
+var userid = context.getVariable("flow.product.userid");
+var radius = context.getVariable("flow.product.distance");
+
+if (geo_type.equals("param"))
+{
+	var	base_url = "https://api.usergrid.com/morbishop/mobileapp";
+	var	res_url = "/users/"+ userid + "?ql=select location";
+	var	targetRequestUrl = base_url + res_url;
+	var headers = {'Content-Type' : 'application/json' };
+	var req = new Request(targetRequestUrl, 'GET', headers);
+	var exchange = httpClient.send(req);
+
+	exchange.waitForComplete();	
+	if (exchange.isSuccess()) 
+	{
+	 	var reqResponse = exchange.getResponse();
+  		if (reqResponse.status == 200) 
+  		{
+	     	context.setVariable("flow.product.user.response",reqResponse);
+        	var loc = JSON.parse(reqResponse.content);
+			lat = parseFloat(loc.list[0][0].latitude);
+			long = parseFloat(loc.list[0][0].longitude);
+          	context.setVariable("flow.product.latitude",lat);
+          	context.setVariable("flow.product.longitude",long);
+        }
+      	else
+        {
+	     	context.setVariable("flow.product.user.response",reqResponse);
+        }
+    }
+  
+}
+else if (geo_type.equals("addr"))
+{
+	var	base_url = "https://maps.googleapis.com/maps/api/geocode";
+	var	res_url = "/json?address="+ address;
+	var	targetRequestUrl = base_url + res_url;
+	var headers = {'Content-Type' : 'application/json' };
+	var req = new Request(targetRequestUrl, 'GET', headers);
+	var exchange = httpClient.send(req);
+
+	exchange.waitForComplete();	
+	if (exchange.isSuccess()) 
+	{
+	 	var reqResponse = exchange.getResponse();
+  		if (reqResponse.status == 200) 
+  		{
+	     	context.setVariable("flow.product.user.response",reqResponse);
+        	var loc = JSON.parse(reqResponse.content);
+			lat = parseFloat(loc.results.geometry.location.lat);
+			long = parseFloat(loc.results.geometry.location.lng);
+
+          	context.setVariable("flow.product.latitude",lat);
+          	context.setVariable("flow.product.longitude",long);
+        }
+      	else
+        {
+	     	context.setVariable("flow.product.user.response",reqResponse);
+        }
+    }
+}
+
+var base_url = "https://api.usergrid.com/morbishop/mobileapp";
+var res_url  = "/stores?ql=location within " + radius + " of " + lat + "," + long;
+
+context.setVariable("flow.product.basepath",base_url);
+context.setVariable("flow.product.uri_ext",res_url);

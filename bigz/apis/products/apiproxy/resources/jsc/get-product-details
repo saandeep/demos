@@ -1,0 +1,31 @@
+var prd_uuid = context.getVariable("flow.product.productuuid");
+var	base_url = "https://api.usergrid.com/morbishop/mobileapp";
+var	res_url = "/products/"+ prd_uuid;
+var fnd_prd = "false";
+
+var	targetRequestUrl = base_url + res_url;
+var headers = {'Content-Type' : 'application/json' };
+var req = new Request(targetRequestUrl, 'GET', headers);
+var exchange = httpClient.send(req);
+
+exchange.waitForComplete();	
+if (exchange.isSuccess()) 
+{
+ 	var reqResponse = exchange.getResponse();
+ 	if (reqResponse.status == 200) 
+  	{
+        var loc = JSON.parse(reqResponse.content);
+		for (var b=0;b < loc.entities.length; b++)
+		{
+          	fnd_prd = "true";
+          	var prd_id = loc.entities[b].partNo;
+          	context.setVariable("flow.product.productid",prd_id);
+        }      
+    }
+    else
+    {
+		context.setVariable("flow.product.user.response",reqResponse);
+    }
+}
+
+context.setVariable("flow.product.found",fnd_prd);

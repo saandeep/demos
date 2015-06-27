@@ -1,0 +1,38 @@
+[
+    {
+        "type": "categories",
+        "name": "SmartPhones",
+        "color": "#4B100D",
+        "id": 1
+    },
+    {
+        "type": "categories",
+        "name": "Mobile Share Value Pricing",
+        "color": "#4BA00D",
+        "id": 2
+    },
+    {
+        "type": "categories",
+        "name": "Individual Data",
+        "color": "#010101",
+        "id": 3
+    },
+    {
+        "type": "categories",
+        "name": "Special Offers",
+        "color": "#2BA00D",
+        "id": 4
+    },
+    {
+        "type": "categories",
+        "name": "Digital Life",
+        "color": "#39A0EE",
+        "id": 5
+    },
+    {
+        "type": "categories",
+        "name": "Uverse Online",
+        "color": "#9BDA0E",
+        "id": 6
+    }
+]

@@ -1,0 +1,230 @@
+[
+    {
+        "id": "1",
+        "name": "Plano-Preston",
+        "phone": "(972) 712-7305",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "8700 Preston Rd #117",
+            "addr2": "",
+            "city": "Plano",
+            "state": "TX",
+            "zip": "75024",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "33.09618",
+            "longitude": "-96.801399"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Plano-Parker",
+        "phone": "(972) 403-1665",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "5976 W Parker Rd #304",
+            "addr2": "",
+            "city": "Plano",
+            "state": "TX",
+            "zip": "75093",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "33.044734",
+            "longitude": "-96.828706"
+        }
+    },
+    {
+        "id": "3",
+        "name": "Plano-Central",
+        "phone": "(972) 422-6600",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "701 N Central Expy",
+            "addr2": "",
+            "city": "Plano",
+            "state": "TX",
+            "zip": "75075",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "33.00952",
+            "longitude": "-96.709001"
+        }
+    },
+    {
+        "id": "4",
+        "name": "Cellular World",
+        "phone": "(512) 252-7076",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "1553 FM 685",
+            "addr2": "",
+            "city": "Pflugerville",
+            "state": "TX",
+            "zip": "78660",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "30.3077609",
+            "longitude": "-97.7534014"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Austin-IH35",
+        "phone": "(512) 339-8873",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "13000 N Ih 35 #100",
+            "addr2": "",
+            "city": "Austin",
+            "state": "TX",
+            "zip": "78753",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "30.3077609",
+            "longitude": "-97.7534014"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Cedar Park",
+        "phone": "(512) 331-0803",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "14010 #560",
+            "addr2": "",
+            "city": "Austin",
+            "state": "TX",
+            "zip": "78717",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "30.3077609",
+            "longitude": "-97.7534014"
+        }
+    },
+    {
+        "id": "7",
+        "name": "Marina Del Ray-2333",
+        "phone": "(310) 473-3649",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "2333 S Sepulveda Blvd",
+            "addr2": "",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zip": "90064",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "34.0204989",
+            "longitude": "-118.4117325"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Hollywood@Normandie",
+        "phone": "(323) 906-1200",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "5065 Hollywood Blvd",
+            "addr2": "",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zip": "90027",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "34.0204989",
+            "longitude": "-118.4117325"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Norwalk",
+        "phone": "(562) 272-4500",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "4429 Candlewood St",
+            "addr2": "",
+            "city": "Lakewood",
+            "state": "CA",
+            "zip": "90712",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "33.8290602",
+            "longitude": "-118.329335"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Geary",
+        "phone": "(415) 750-4700",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "3555 Geary Blvd",
+            "addr2": "",
+            "city": "San Francisco",
+            "state": "CA",
+            "zip": "94118",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "37.7577",
+            "longitude": "-122.4376"
+        }
+    },
+    {
+        "id": "11",
+        "name": "Union St",
+        "phone": "(415) 346-4044",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "2135 Union St",
+            "addr2": "",
+            "city": "San Francisco",
+            "state": "CA",
+            "zip": "94123",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "37.7577",
+            "longitude": "-122.4376"
+        }
+    },
+    {
+        "id": "12",
+        "name": "Merced Heights",
+        "phone": "(415) 564-2171",
+        "affiliate": "",
+        "site_type": "store",
+        "adr": {
+            "addr1": "3251 20th Ave",
+            "addr2": "Suite 240",
+            "city": "San Francisco",
+            "state": "CA",
+            "zip": "94132",
+            "country": "USA"
+        },
+        "location": {
+            "latitude": "37.7577",
+            "longitude": "-122.4376"
+        }
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "type": "offers",
+        "category": "SpecialOffers",
+        "color": "#8BA00D",
+        "description": "A flip phone crafted for your convenience, the LG A380 delivers functionality and accessibility with dedicated quick-access function buttons, enhanced audio (senior) mode, and audible Text to Speech messaging.",
+        "effective": "10/1/14",
+        "expiration": "12/31/14",
+        "title": " LG A380 - Black",
+        "": ""
+    },
+    {
+        "type": "offers",
+        "category": "MobileShareValuePricing",
+        "color": "#4BA00D",
+        "description": "Choose a data plan and get 2-10 lines with Unlimited Talk & Text.",
+        "effective": "11/1/14",
+        "expiration": "12/31/14",
+        "title": "Get 30GB of data starting at $160/month",
+        "": ""
+    },
+    {
+        "type": "offers",
+        "category": "UverseOnline",
+        "color": "#AFBE00",
+        "description": "You will always find great deals online, like our HBO Bundle with U-basic TV and 18Mbps Internet for $39/month!",
+        "effective": "11/1/14",
+        "expiration": "1/15/15",
+        "title": "U-verse - Best Deals are online",
+        "": ""
+    },
+    {
+        "type": "",
+        "category": "",
+        "color": "",
+        "description": "",
+        "effective": "",
+        "expiration": "",
+        "title": "",
+        "": ""
+    }
+]

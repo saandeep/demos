@@ -1,0 +1,266 @@
+[
+    {
+        "category": 1,
+        "description": "The iPhone 6 features a 4.7-inch retina HD display, the new A8 chip for faster processing and longer battery life, the M8 motion coprocessor to track speed, distance and elevation, and with an 8MP iSight camera, you can record 1080p HD Video at 60 FPS!",
+        "discount": 0,
+        "partNo": "5839825536",
+        "price": 800,
+        "productName": "iPhone 6 / 16GB / Space Grey",
+        "rating": 5,
+        "photos": [
+            "http://www.att.com/catalog/en/skus/hi_res_images/apple-iphone%206%20-%2016gb-space%20gray-964x750.jpg"
+        ]
+    },
+    {
+        "category": 1,
+        "description": "The iPhone 6 features a 4.7-inch retina HD display, the new A8 chip for faster processing and longer battery life, the M8 motion coprocessor to track speed, distance and elevation, and with an 8MP iSight camera, you can record 1080p HD Video at 60 FPS!",
+        "discount": 0,
+        "partNo": "7178612361",
+        "price": 900,
+        "productName": "iPhone 6 / 64GB / Gold",
+        "rating": 5,
+        "photos": [
+            "http://www.att.com/catalog/en/skus/hi_res_images/apple-iphone%206%20-%2064gb-gold-964x750.jpg"
+        ]
+    },
+    {
+        "category": 1,
+        "description": "The iPhone 6 features a 4.7-inch retina HD display, the new A8 chip for faster processing and longer battery life, the M8 motion coprocessor to track speed, distance and elevation, and with an 8MP iSight camera, you can record 1080p HD Video at 60 FPS!",
+        "discount": 0,
+        "partNo": "7764700505",
+        "price": 1080,
+        "productName": "iPhone 6 / 128GB / Silver",
+        "rating": 5,
+        "photos": [
+            "http://www.att.com/catalog/en/skus/hi_res_images/apple-iphone%206%20-%20128gb-silver-964x750.jpg"
+        ]
+    },
+    {
+        "category": 1,
+        "description": "The new Samsung Galaxy Note 4 delivers in ways that improve how we live, work and play every day. Dive into the dynamic Quad HD Super AMOLED display. Get more done with our most precise and useful S Pen ever.",
+        "discount": 0,
+        "partNo": "8959368255",
+        "price": 670,
+        "productName": "Samsung Note 4 / Black",
+        "rating": 5,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/devices/overview-tabs/samsung-t/205145_SamsungT-OVT_img1.jpg"
+        ]
+    },
+    {
+        "category": 1,
+        "description": "The new Samsung Galaxy Note 4 delivers in ways that improve how we live, work and play every day. Dive into the dynamic Quad HD Super AMOLED display. Get more done with our most precise and useful S Pen ever.",
+        "discount": 0,
+        "partNo": "3447865290",
+        "price": 839,
+        "productName": "Samsung Note 4 / Frost White",
+        "rating": 5,
+        "photos": [
+            "http://shop.sprint.com/catalog/images/devices/samsung/samsung_galaxy_note_4/frosted_white/device_145x250_c.gif"
+        ]
+    },
+    {
+        "category": 2,
+        "description": "AT&T Mobile Share Value cell phone plans offer a new way to share data on up to 10 devices while enjoying the nation's most reliable 4G LTE network.",
+        "discount": 0,
+        "partNo": "8699313414",
+        "price": 20,
+        "productName": "300MB",
+        "rating": 2,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/promotions/mobile-share/213336-howitworks-sec2.jpg"
+        ]
+    },
+    {
+        "category": 2,
+        "description": "AT&T Mobile Share Value cell phone plans offer a new way to share data on up to 10 devices while enjoying the nation's most reliable 4G LTE network.",
+        "discount": 0,
+        "partNo": "9489861437",
+        "price": 25,
+        "productName": "1GB",
+        "rating": 2,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/promotions/mobile-share/213336-howitworks-sec2.jpg"
+        ]
+    },
+    {
+        "category": 2,
+        "description": "AT&T Mobile Share Value cell phone plans offer a new way to share data on up to 10 devices while enjoying the nation's most reliable 4G LTE network.",
+        "discount": 0,
+        "partNo": "3312192885",
+        "price": 40,
+        "productName": "3GB",
+        "rating": 3,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/promotions/mobile-share/213336-howitworks-sec2.jpg"
+        ]
+    },
+    {
+        "category": 2,
+        "description": "AT&T Mobile Share Value cell phone plans offer a new way to share data on up to 10 devices while enjoying the nation's most reliable 4G LTE network.",
+        "discount": 0,
+        "partNo": "1335740490",
+        "price": 100,
+        "productName": "10GB",
+        "rating": 4,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/promotions/mobile-share/213336-howitworks-sec2.jpg"
+        ]
+    },
+    {
+        "category": 2,
+        "description": "AT&T Mobile Share Value cell phone plans offer a new way to share data on up to 10 devices while enjoying the nation's most reliable 4G LTE network.",
+        "discount": 0,
+        "partNo": "3576695633",
+        "price": 130,
+        "productName": "30GB",
+        "rating": 5,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/promotions/mobile-share/213336-howitworks-sec2.jpg"
+        ]
+    },
+    {
+        "category": 2,
+        "description": "AT&T Mobile Share Value cell phone plans offer a new way to share data on up to 10 devices while enjoying the nation's most reliable 4G LTE network.",
+        "discount": 0,
+        "partNo": "4144871907",
+        "price": 150,
+        "productName": "40GB",
+        "rating": 5,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/promotions/mobile-share/213336-howitworks-sec2.jpg"
+        ]
+    },
+    {
+        "category": 2,
+        "description": "AT&T Mobile Share Value cell phone plans offer a new way to share data on up to 10 devices while enjoying the nation's most reliable 4G LTE network.",
+        "discount": 0,
+        "partNo": "3012284038",
+        "price": 225,
+        "productName": "60GB",
+        "rating": 5,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/promotions/mobile-share/213336-howitworks-sec2.jpg"
+        ]
+    },
+    {
+        "category": 2,
+        "description": "AT&T Mobile Share Value cell phone plans offer a new way to share data on up to 10 devices while enjoying the nation's most reliable 4G LTE network.",
+        "discount": 0,
+        "partNo": "4747815703",
+        "price": 300,
+        "productName": "80GB",
+        "rating": 3,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/promotions/mobile-share/213336-howitworks-sec2.jpg"
+        ]
+    },
+    {
+        "category": 3,
+        "description": "Our Mobile Share Value plans for individuals",
+        "discount": 0,
+        "partNo": "4780108383",
+        "price": 65,
+        "productName": "3GB",
+        "rating": 4,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/promotions/mobile-share/213336-howitworks-sec2.jpg"
+        ]
+    },
+    {
+        "category": 3,
+        "description": "Our Mobile Share Value plans for individuals",
+        "discount": 0,
+        "partNo": "5507823224",
+        "price": 150,
+        "productName": "10GB",
+        "rating": 3,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/promotions/mobile-share/213336-howitworks-sec2.jpg"
+        ]
+    },
+    {
+        "category": 4,
+        "description": "Add any smartphone to your cart and then add the G Pad tablet for only 99�! Offer ends December 31, 2014.",
+        "discount": 0,
+        "partNo": "7127883446",
+        "price": 1,
+        "productName": "LG G Pad",
+        "rating": 3,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/shop/wireless/landing/lg-vista/209449-LG-G7-Bundle-Desktop-974x604-bg.jpg"
+        ]
+    },
+    {
+        "category": 4,
+        "description": "Stream your favorite TV shows and movies with super-fast Internet up to 45Mbps. Includes U-verse TV, HBO, and a year of Amazon Prime ($99 value).",
+        "discount": 0,
+        "partNo": "3737514969",
+        "price": 89,
+        "productName": "$89 Bundle offer (U-verse TV + High Speed Internet + Voice)",
+        "rating": 3,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/global/JSAM-assets/bg-947x280/3Q/205185-Prime-checkavail-974x280-bg.jpg"
+        ]
+    },
+    {
+        "category": 4,
+        "description": "Stream your favorite TV shows and movies with super-fast Internet up to 45Mbps. Includes U-verse TV, HBO, and a year of Amazon Prime ($99 value).",
+        "discount": 0,
+        "partNo": "7075049053",
+        "price": 119,
+        "productName": "�$119 Triple Play Bundle offer (U-verse TV + High Speed Internet + Voice)",
+        "rating": 4,
+        "photos": [
+            "http://www.att.com/shopcms/media/att/2014/global/JSAM-assets/bg-947x280/3Q/205185-Prime-checkavail-974x280-bg.jpg"
+        ]
+    },
+    {
+        "category": 6,
+        "description": "Uverse Online Only",
+        "discount": 0,
+        "partNo": "3896904819",
+        "price": 39,
+        "productName": "Uverse Special",
+        "rating": 4,
+        "photos": [
+            "https://www.att.com/shopcms/media/att/2014/shop/uverse/why-buy-online/191331-39mo-icon-modal-img.png"
+        ]
+    },
+    {
+        "category": 4,
+        "description": "If all you want is high-speed Internet, AT&T U-verse gives you great prices for whatever speed you need.",
+        "discount": 0,
+        "partNo": "7198457503",
+        "price": 70,
+        "productName": "Pro - Up to 3Mbps",
+        "rating": 3,
+        "photos": [
+            "https://www.att.com/shopcms/media/att/2012/shop/u-verse/common/165060_speadchart_3.gif?t=1416244680835"
+        ]
+    },
+    {
+        "category": 5,
+        "description": "Help protect your family with 24/7 professionally monitored home security. Safety and security features like window and door sensors, motion sensors, carbon monoxide sensor and remote access help ensure your home is protected.",
+        "discount": 0,
+        "partNo": "4910831972",
+        "price": 39,
+        "productName": "Smart Security",
+        "rating": 4,
+        "photos": [
+            "https://my-digitallife.att.com/content/dam/LearnBuild/devices-images/Keypad.png"
+        ]
+    },
+    {
+        "category": 5,
+        "description": "Want even more security plus the convenience of automation? Add the video camera and door packages to your Smart Security package. You'll get remote access and control right from your smartphone, tablet or computer.",
+        "discount": 0,
+        "partNo": "4261893359",
+        "price": 54,
+        "productName": "Smart + Automation",
+        "rating": 4,
+        "photos": [
+            "https://my-digitallife.att.com/content/dam/LearnBuild/devices-images/Devices275px/Outdoor-Camera.png"
+        ]
+    }
+]

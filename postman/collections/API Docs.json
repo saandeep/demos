@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "baeff97b-2416-4572-b30c-9df7495cf9d1",
 		"name": "API Docs",
-		"description": "Buy or rent spacecrafts",
+		"description": "Buy or rent spacecrafts\n\nAPI Documentation",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "27254826-baeff97b-2416-4572-b30c-9df7495cf9d1"
 	},
@@ -38,7 +38,6 @@
 									],
 									"variable": [
 										{
-											"id": "a73938b8-3e85-463b-b232-d97068b81c5d",
 											"key": "spacecraftId",
 											"value": "<string>"
 										}
@@ -68,7 +67,6 @@
 											],
 											"variable": [
 												{
-													"id": "a73938b8-3e85-463b-b232-d97068b81c5d",
 													"key": "spacecraftId",
 													"value": "<string>"
 												}
@@ -109,7 +107,6 @@
 											],
 											"variable": [
 												{
-													"id": "a73938b8-3e85-463b-b232-d97068b81c5d",
 													"key": "spacecraftId",
 													"value": "<string>"
 												}
@@ -150,7 +147,6 @@
 											],
 											"variable": [
 												{
-													"id": "a73938b8-3e85-463b-b232-d97068b81c5d",
 													"key": "spacecraftId",
 													"value": "<string>"
 												}
